@@ -163,12 +163,19 @@ button {
     width: 94%;
     margin-top: 5px;
     margin-left: 5px;
+    display: flex;
 }
 
 .blog-img {
+    
     width: 60px;
      height: 3rem;
       background-color: aliceblue;
+}
+
+.blog1img{
+    background-image: url(../images/akamegakill-profile.jpg);
+    background-size:cover;
 }
 
 /*.bottom-line a{
@@ -180,5 +187,9 @@ button {
     color:chocolate;
 
 
+}
+.blog-1 a{
+    margin-top: 20px;
+    margin-left: 20px;
 }
 

@@ -1,0 +1,45 @@
+
+
+body{
+
+    background-image: url(../images/akamegakill-background.jpg);
+    background-size: cover;
+    
+}
+
+
+.main-heading1{
+justify-content: center;
+font-family: sans-serif;
+text-transform: capitalize;
+text-align: center;
+text-decoration: underline;
+
+
+
+}
+.main-heading2{
+
+    justify-content:end;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: end;
+
+}
+
+.outer-div{
+
+   display: flex;
+    height: 30rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: center
+}
+
+.inner-div{
+    
+    height:20rem;
+    width:80%;
+}
+

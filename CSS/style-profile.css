@@ -1,0 +1,88 @@
+body{
+
+
+
+background-color: rgb(83, 169, 226);
+   /*background-image: url("../images/pexels-michał-osiński-3454270.jpg");*/
+   background-position: center;
+}
+/*
+.badge{
+
+    
+    width:  250px;
+    
+    
+    background-color: rgb(172, 165, 165);
+    margin: 100px auto;
+    text-align: center;
+    font-family:  Helvetica, Arial, sans-serif;
+    color: rgb(40, 39, 39);
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 13px 27px -5px gray , 0 8px 16px -8px blue;
+    border-radius: 10px;     
+    border: 1px solid black;
+
+}
+.badge img{
+width: 100px;
+
+border-radius: 10px;
+
+
+}
+.badge a{
+color: red;
+display: inline-block;
+margin: 10px;
+
+
+
+}
+*/
+
+ .badge {
+    width: 150px;
+    background-color: rgb(172, 165, 165);
+    margin: 100px auto;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(40, 39, 39);
+    padding: 5px 25px;
+    border-radius: 10px;
+    box-shadow: 0 13px 27px -5px gray, 0 8px 16px -8px blue;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 297px;
+
+
+} 
+.badge h1 {
+    display: flex;
+    margin: 2px;
+    font-size: 1.3rem;
+    align-items: center;
+    justify-content: center;
+}
+.badge img {
+    width: 100px;
+    border-radius: 10px;
+}
+.heading2 {
+    margin: 5px;
+}
+.para2 {
+    margin: 1px;
+    display: table-cell;
+}
+.icon-div {
+    margin: 0px;
+}
+.icon {
+    margin: 0px;
+    height: 1rem;
+    color: crimson;
+    font-weight: 500;
+}
+

@@ -1,0 +1,49 @@
+body{
+
+
+color: gray;
+
+
+
+
+}
+
+h1{
+text-shadow: 5px 7px 5px green , -5px -7px 5px green;
+
+
+
+}
+
+.first{
+height: 200px;
+width: 200px;
+
+box-shadow: 0 13px 27px -5px gray , 0 8px 16px -8px blue;
+border-radius: 10px;     
+border: 1px solid black;
+}
+
+
+#youtube:link{
+
+    color: gray;
+    text-decoration: solid;
+
+}
+
+#youtube:visited{
+
+color: rgb(11, 11, 211);
+
+}
+
+#youtube:hover{
+color: red;
+
+}
+#youtube:active{
+color: green;
+
+
+}

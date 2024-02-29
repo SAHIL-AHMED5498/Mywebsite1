@@ -64,13 +64,14 @@
 
 }
 
+
 .profile-links {
     margin-left: 6rem;
-    display: block;
     justify-content: center;
     align-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
+    display: flex;
 }
 
 .bottom-line {

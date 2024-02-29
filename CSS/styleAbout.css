@@ -1,4 +1,4 @@
-body{
+/*body{
 
 
 color: gray;
@@ -46,4 +46,17 @@ color: red;
 color: green;
 
 
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inner-body{
+
+    margin: 10px;
+    height: 60rem;
+    
+    background-color: rgb(82, 82, 98);
 }

@@ -45,32 +45,43 @@ body{
     align-items: center;
     height:20rem;
 }
-
-.project-img{
-    margin-left: 1rem;
-    margin: 5px 2.5rem;
-   width: 60%;
-    background-color:rgb(162 162 227);
+.project-img {
+    position: relative;
+    margin: 5px;
+    width: 60%;
+    background-color: rgb(162 162 227);
     height: 5rem;
-    background-size:cover;
+    background-size: cover;
+    left: 15%;
 }
+
 .project-about{
 
     height:10rem ;
     margin: 5px;
     background-color: rgb(164, 144, 183);
 }
+.project-about-para{
+
+    font-size: 1.2rem;
+}
 
 @media all and (max-width:600px)
 {
-.project-img {
-    margin-left: 1rem;
-    margin: 5px 20px;
-    width: 60%;
-    background-color: rgb(162 162 227);
-    height: 5rem;
-    background-size: cover;
-}
+    .project-img {
+        position: relative;
+        margin: 5px;
+        width: 60%;
+        background-color: rgb(162 162 227);
+        height: 5rem;
+        background-size: cover;
+        left: 15%;
+    }
+
+    .project-about-para{
+
+        font-size: 0.8rem;
+    }
 
 
 }

@@ -51,6 +51,9 @@ if(th==="lightcolor")
     th="darkcolor";
     document.querySelector(".inner-body").style.backgroundColor="white";
     document.querySelector(".inner-body").style.color="black";
+    document.querySelector(".MainHead").style.color="black";
+    document.querySelector(".MainHead").style.border="3px solid black";
+    
 
 
 }
@@ -60,6 +63,10 @@ else if(th==="darkcolor")
     th="lightcolor";
     document.querySelector(".inner-body").style.backgroundColor="black";
     document.querySelector(".inner-body").style.color="white";
+    document.querySelector(".MainHead").style.color="white";
+    document.querySelector(".MainHead").style.border="3px solid white";
+    
+
 
     
 

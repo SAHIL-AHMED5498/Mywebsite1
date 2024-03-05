@@ -5,6 +5,9 @@ body{
 background-color: rgb(83, 169, 226);
    /*background-image: url("../images/pexels-michał-osiński-3454270.jpg");*/
    background-position: center;
+   display:grid;
+   justify-content: center;
+   align-items: center;
 }
 /*
 .badge{
@@ -41,14 +44,6 @@ margin: 10px;
 
 }
 */
-
-body{
-
-    display:grid;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .main-container{
 
@@ -103,11 +98,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-.card:hover{
-
-    transform: rotateY(180deg);
     
 }
 
@@ -174,86 +164,5 @@ body{
         border-radius: 10px;
         margin: 5rem;
     }
-
-    .card {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-color: rgb(83, 169, 226);
-        transform-style: preserve-3d;
-        transition: transform 0.5s ease;
-        border-radius: 10px;
-    }
-
-    .badge,
-    .back {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        backface-visibility: hidden;
-        color: blanchedalmond;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .back {
-        background-color: rgb(0, 0, 0);
-        transform: rotateY(180deg);
-    }
-
-    .badge {
-        display: block;
-        width: 100%;
-        background-color: rgb(172, 165, 165);
-        text-align: center;
-        font-family: Helvetica, Arial, sans-serif;
-        color: rgb(40, 39, 39);
-        border-radius: 10px;
-        box-shadow: 0 13px 27px -5px gray, 0 8px 16px -8px blue;
-        border: 1px solid black;
-        height: 100%;
-    }
-
-    .badge h1 {
-        display: flex;
-        margin: 2px;
-        font-size: 1.3rem;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .badge img {
-        width: 100px;
-        border-radius: 10px;
-    }
-
-    .heading2 {
-        margin: 5px;
-    }
-
-    .para2 {
-        margin: 1px;
-        display: table-cell;
-    }
-
-    .icon-div {
-        margin: 0px;
-    }
-
-    .icon {
-        margin: 0px;
-        height: 1rem;
-        color: crimson;
-        font-weight: 500;
-    }
-
-    /* Added touch event handling for mobile devices */
-    .card.flipped {
-        transform: rotateY(180deg);
-    }
-
 }
 

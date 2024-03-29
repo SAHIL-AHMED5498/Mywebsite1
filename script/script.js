@@ -75,7 +75,7 @@ else if(th==="darkcolor")
 
 
 } */
-
+/*
 themebtn.addEventListener('click', tog);
 
 function navigate() {
@@ -86,9 +86,10 @@ function navigate() {
       window.location.href = selectedValue;
     }
   }
-
+*/
   let subMenu=document.getElementById("subMenu");
+console.log("hello");
 function toggleMenu(){
-
+    console.log("world");
     subMenu.classList.toggle("open-menu");
 }

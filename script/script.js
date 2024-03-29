@@ -37,7 +37,7 @@ function input()
 rankbutton2.addEventListener('click',input);
 rankbutton3.addEventListener('click',input); */
 
-
+/*
 let themebtn=document.querySelector('#theme');
 let th="lightcolor";
 
@@ -70,11 +70,12 @@ else if(th==="darkcolor")
 
     
 
-}
+} 
 
 
 
-}
+} */
+
 themebtn.addEventListener('click', tog);
 
 function navigate() {
@@ -85,3 +86,9 @@ function navigate() {
       window.location.href = selectedValue;
     }
   }
+
+  let subMenu=document.getElementById("subMenu");
+function toggleMenu(){
+
+    subMenu.classList.toggle("open-menu");
+}

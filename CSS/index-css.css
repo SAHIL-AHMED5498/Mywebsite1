@@ -142,10 +142,10 @@ background: #000000;
 
     height: 2rem;
     width: 5rem;
-    background-color: #a58686;
-    border: 2px solid white;
+    background-color: black;
+    border: 2px solid #930000;;
     border-radius: 5px;
-    color: black;
+    color: white;
     font-family: 'poppins', sans-serif;
     display: flex;
     align-items: center;
@@ -222,7 +222,7 @@ background: #000000;
 .blogs {
     padding: 5px;
     height: 60px;
-    background-color: #d12c2c;
+    background-color:#c090d0;
     width: 94%;
     margin-top: 5px;
     margin-left: 5px;

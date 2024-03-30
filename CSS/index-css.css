@@ -153,6 +153,10 @@ background: #000000;
     font-weight: bolder;
     visibility: hidden;
    }
+   .menu-box:active {
+    background-color: #800000; /* Darker green */
+    margin: 2px;
+}
 
 
 

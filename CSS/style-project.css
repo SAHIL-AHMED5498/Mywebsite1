@@ -5,7 +5,7 @@ body{
     border: 0;
     box-sizing: border-box;
     margin: 5px;
-    background-color: #b722ff;
+    background-color: #da9cf8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -40,7 +40,7 @@ body{
 
 .projects{
     
-    background-color: rgb(230, 225, 225);
+    background-color:#f0cc97;
     border-radius: 12px;
     box-sizing: border-box;
     color: initial;
@@ -59,7 +59,7 @@ body{
 .project-row1{
 
     display:flex;
-    justify-content:space-evenly;
+    margin-left: 50px;
     align-items: center;
     height:20rem;
 }
@@ -67,9 +67,9 @@ body{
 .project-row2{
 
     display:flex;
-    justify-content:space-evenly;
+    margin-left: 50px;
     align-items: center;
-    height:20rem;
+    height:15rem;
 }
 .project-img {
     position: relative;
@@ -91,6 +91,7 @@ body{
     font-size: small;
 }
 .project-about-para{
+    background-color: #FFF8E1;
 
     font-size:small;
 }
@@ -98,12 +99,19 @@ body{
 .divide{
     display: flex;
 }
-
+.home-div{
+   
+    align-items: center;
+    height: 5rem;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
 @media all and (max-width:600px)
 {  
 
     body {
-        background-color: #b722ff;
+        background-color: #da9cf8;
         margin: 0;
         border: 0;
         box-sizing: border-box;
@@ -133,7 +141,8 @@ body{
     align-items: center;
     height: fit-content;
     flex-direction: column;
-    margin-top: 35px;
+    margin-top: 42px;
+    margin-left: 0;
     }
     .project-row2 {
         
@@ -143,11 +152,12 @@ body{
     align-items: center;
     height: fit-content;
     flex-direction: column;
-    margin-top: 35px;
+    margin-top: 5px;
+    margin-left: 0;
     }
 
     .projects {
-        background-color: rgb(230, 225, 225);
+        background-color: #f0cc97;
         border-radius: 12px;
         box-sizing: border-box;
         color: initial;
@@ -185,9 +195,18 @@ body{
         padding: 5px;
     height: 6rem;
     margin: 5px;
-    background-color: white;
+    background-color: #FFF8E1;
     font-family: Verdana, RobotoDraft, Helvetica, Arial, sans-serif;
     font-size: small;
+    }
+
+    .home-div{
+   
+        align-items: center;
+        height: 5rem;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
     }
 
 

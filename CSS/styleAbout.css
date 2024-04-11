@@ -53,10 +53,48 @@ color: green;
     box-sizing: border-box;
 }
 
-.inner-body{
+body{
 
-    margin: 10px;
-    height: 60rem;
+
+    padding: 10px;
     
-    background-color: rgb(82, 82, 98);
+    height: 100vh;
+    background-color: #94d2b9;
+    color: black;
+    font-family: Verdana, CURSIVE;
+}
+.first{
+    margin: 20px;
+    padding: 5px;
+}
+p{
+    margin-top: 30px;
+}
+
+.second{
+    margin-left: 20px;
+    padding: 5px;
+}
+.home-div{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border: 4px solid;
+    height: 50vh;
+    padding: 5px;
+}
+
+thead{
+    font-weight: 700;
+    border: 2px solid black;
+}
+
+td,th{
+    border: 2px solid black;
+    
+    
+    
 }

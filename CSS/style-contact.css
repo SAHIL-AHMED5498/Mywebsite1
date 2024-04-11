@@ -1,5 +1,21 @@
-body{
 
-    background-color: azure;
-    background-image: radial-gradient(rgb(255, 255, 255),rgb(246, 37, 5));
+
+body {
+    background-color: palegoldenrod;
+    height: 100vh;
+    font-family: Verdana, cursive;
+}
+
+.info{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-div{
+    height: 5rem;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
 }

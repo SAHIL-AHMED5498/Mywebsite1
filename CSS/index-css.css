@@ -226,14 +226,17 @@ background: #000000;
 }
 
 .blogs {
-    padding: 5px;
-    height: 60px;
-    background-color:#c090d0;
-    width: 94%;
-    margin-top: 5px;
-    margin-left: 5px;
-    display: flex;
-}
+        padding: 5px;
+        height: 60px;
+        background-color: #c090d0;
+        width: 94%;
+        margin-top: 5px;
+        margin-left: 12px;
+        display: flex;
+        border: 2px solid;
+        border-radius: 2px;
+    }
+
 
 .blog-img {
     
@@ -260,6 +263,15 @@ background: #000000;
 .blog-1 a{
     margin-top: 20px;
     margin-left: 20px;
+}
+
+.blog-heading{
+    
+        margin-top: 10px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    
 }
 
 

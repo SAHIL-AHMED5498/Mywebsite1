@@ -2,9 +2,12 @@
 body{
 
     margin: 0;
+    
+    padding: 5px;
+    
     height: 150vh;
     font-family: Verdana;
-    background-color: #e1dddd;
+    background-color: rgb(225, 203, 225);
 }
 
 .nav{

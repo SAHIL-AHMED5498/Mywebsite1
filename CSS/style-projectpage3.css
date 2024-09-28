@@ -38,7 +38,7 @@ body{
 .project{
 
     height: 13rem;
-    width: 11rem;
+    width: 11.5rem;
     background-color: grey;
     border-radius: 5px;
     border: 2px solid;
@@ -87,4 +87,24 @@ img{
     width: 100%;
     object-fit: fill;
     height: 100%;
+}
+
+@media all and (max-width: 600px){
+
+
+
+    .project{
+
+        height: 13rem;
+        width: 11rem;
+        background-color: grey;
+        border-radius: 5px;
+        border: 2px solid;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
 }
